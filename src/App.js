@@ -118,7 +118,7 @@ const QuoteGenerator = () => {
             disabled={loading}
             className="button"
           >
-            {loading ? 'Loading...' : 'Get Quote'}
+            {loading ? 'Loading...' : '(ALB)Ingress->EKS [FE{React}->BE{Spring Boot}] 통신 test'}
           </button>
           
           {error && (
